@@ -103,7 +103,7 @@ Remove the last obsevation if code ne save modify
       end;                                                                                                
                                                                                                           
       modify have point=ob1;                                                                              
-      if status ne 'A' then remove;                                                                       
+      if status ne 'save' then remove;                                                                       
                                                                                                           
       stop;                                                                                               
                                                                                                           
