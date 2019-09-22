@@ -96,7 +96,7 @@ data have;
   end;                                                                                                 
                                                                                                        
   modify have point=ob1;                                                                               
-  if status ne 'A' then remove;                                                                        
+  if status ne 'save then remove;                                                                        
                                                                                                        
   stop;                                                                                                
                                                                                                        
